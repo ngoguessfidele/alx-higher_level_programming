@@ -4,7 +4,7 @@ import random
 
 number = random.randint(-10000, 10000)
 
-lastdig = number % 10
+lastdig = number % 10 if number >= 0 else ((-number % 10) * -1)
 
 str1 = "Last digit of {} is {} and is {}"
 if (lastdig > 5):
