@@ -7,6 +7,8 @@ if __name__ = "__main__":
         print("{} arguments.".format(n))
     elif n == 1:
         print("{} argument:".format(n))
+    else:
+        print("{} arguments:".format(n))
 
     if n > 1:
         n = 0
