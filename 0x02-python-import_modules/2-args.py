@@ -8,7 +8,7 @@ if __name__ = "__main__":
     elif n == 1:
         print("{} argument:".format(n))
 
-    if  n > 1:
+    if n > 1:
         n = 0
         for arg in sys.argv:
             if n != 0:
